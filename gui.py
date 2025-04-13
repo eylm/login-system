@@ -58,7 +58,6 @@ def giris_yap():
     else:
         messagebox.showerror("Hata", "Kullanıcı adı veya şifre yanlış!")
 
-# Modern Giriş Ekranı
 pencere = tk.Tk()
 pencere.title("Giriş Ekranı")
 pencere.geometry("400x350")
